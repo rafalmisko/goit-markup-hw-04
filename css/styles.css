@@ -64,7 +64,7 @@ img {
   min-height: 80px;
   padding: 0 15px;
   margin: 0 auto;
- /* align-items: center;*/
+  /* align-items: center;*/
 }
 
 .section {
@@ -88,7 +88,7 @@ ul {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
-  font-style: normal; 
+  font-style: normal;
   line-height: 1.192;
   color: var(--main-color);
   text-decoration: inherit;
@@ -197,6 +197,7 @@ ul {
 .hero-background {
   /*width: 1600px;
   height: 600px;*/
+  background-image: url("/images/imgstaffo.jpg");
   padding: 200px 0px;
   background-color: var(--hero-color-background);
 }
@@ -248,7 +249,6 @@ ul {
   padding-top: 94px;
 }
 
-
 .filters-nav-button {
   font-weight: 500;
   font-size: 16px;
@@ -271,12 +271,9 @@ ul {
 .container .filters-list {
   display: flex;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
   margin-bottom: 50px;
 }
-
- 
- 
 
 /*==========END FILTR==========*/
 
@@ -312,7 +309,6 @@ ul {
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
-  
 }
 
 /*==========OUR SERVICES=========*/
@@ -419,7 +415,6 @@ ul {
 /**==========PORTFOLIO==========*/
 .portfolio {
   padding-bottom: 94px;
-  
 }
 
 .portfolio-list {
@@ -441,19 +436,19 @@ ul {
 }
 
 .portfolio-list {
-  display: flex; 
-  flex-flow: row wrap; 
+  display: flex;
+  flex-flow: row wrap;
 }
 
-.portfolio-list .item  {
-  padding: 10px; 
-  
+.portfolio-list .item {
+  padding: 10px;
+
   background-color: var(--main-color-button-link-active);
 }
-.item-box { 
-  border: 1px solid #EEEEEE;
-  box-sizing: border-box; 
-  padding: 20px 24px; 
+.item-box {
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  padding: 20px 24px;
 }
 
 .portfolio-list-title {
@@ -461,8 +456,7 @@ ul {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: var(--main-color); 
-
+  color: var(--main-color);
 }
 
 .portfolio-list-subtitles {
@@ -493,7 +487,7 @@ ul {
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
-  font-style: normal; 
+  font-style: normal;
   color: rgba(255, 255, 255, 0.6);
 }
 
@@ -502,7 +496,7 @@ ul {
   line-height: 1.714;
   letter-spacing: 0.03em;
   text-decoration-line: underline;
-  font-style: normal; 
+  font-style: normal;
   color: var(--main-color-link-tel);
 }
 
@@ -522,7 +516,7 @@ ul {
   font-size: 26px;
   line-height: 1.192;
   letter-spacing: 0.03em;
-  font-style: normal; 
+  font-style: normal;
   color: var(--logo-footer-light);
   cursor: pointer;
 }
@@ -531,10 +525,9 @@ ul {
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
-  font-style: normal; 
+  font-style: normal;
   color: var(--main-color-link-tel);
   cursor: pointer;
-
 }
 
 .footer-address:hover,
