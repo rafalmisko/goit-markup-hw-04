@@ -199,6 +199,7 @@ ul {
   font-size: 14px;
   line-height: 1.142;
   letter-spacing: 0.02em;
+  margin-left: auto;
   color: var(--main-color-link);
 }
 
@@ -252,7 +253,7 @@ ul {
   /*width: 1600px;
   height: 600px;*/
   background-image: linear-gradient(rgba(47, 48, 58, 0.4),
-  rgba(47, 48, 58, 0.4)), url("/images/imgstaffo.jpg");
+  rgba(47, 48, 58, 0.4)), url("../images/imgstaffo.jpg");
   padding: 200px 0px;
   background-color: var(--hero-color-background);
 }
