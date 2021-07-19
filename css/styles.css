@@ -17,6 +17,8 @@ h6 {
   padding: 0;
 }
 :root {
+  
+  
   --main-color: #212121;
   --second-color-logo: #2196f3;
   --logo-footer-light: #cbcbce;
@@ -82,20 +84,32 @@ ul {
   list-style-type: none;
 }
 
-/*==========HEADER LOGO==========*/
+/*========== HEADER LOGO ==========*/
+
+.logo-nav-web { 
+   
+  color: var(--second-color-logo);
+  text-decoration: none; 
+    
+}
 
 .navigation-logo-header {
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway", sans-serif;  
   font-weight: 700;
   font-size: 26px;
-  font-style: normal;
   line-height: 1.192;
   color: var(--main-color);
-  text-decoration: inherit;
-  margin-left: 215px;
+  text-decoration: none;
+  margin-right: 94px;
+  
+  
+
+
+
+  /*margin-left: 215px;
   margin-top: 24px;
   margin-bottom: 25px;
-  margin-right: 93px;
+  margin-right: 93px;*/
 }
 
 .navigation-logo-header:hover,
@@ -104,7 +118,7 @@ ul {
 }
 
 .logo-nav {
-  color: var(--second-color-logo);
+  color: var(--main-color);
 }
 
 .logo-nav:hover,
@@ -112,25 +126,49 @@ ul {
   cursor: pointer;
 }
 
-/*==========END LOGO==========*/
+/*========== END LOGO ==========*/
 
-/*==========HEADER NAVIGATION==========*/
+/*========== HEADER NAVIGATION ==========*/
 
 .navigation {
   display: flex;
-}
-.header {
-  border-bottom: 1px solid var(--header-color);
+  align-items: center; 
 }
 
+ 
+/*.header {
+  border-bottom: 1px solid var(--header-color);
+}
+*/
 .header .container {
   display: flex;
-  align-items: center;
+  
+  align-items: center; 
+
+  
 }
 
 .navigation-menu {
   list-style-type: none;
   display: flex;
+  
+}
+
+/*
+.navigation-menu:first-child {
+  margin-right: 94px; 
+}
+*/
+
+.contact-list-mt {
+  display: flex; 
+  align-items: center; 
+  margin-left: auto; 
+
+}
+
+.contact-list-mt:fist-child {
+
 }
 
 .navigation-item {
@@ -148,13 +186,15 @@ ul {
   cursor: pointer;
 }
 
-.navigation-menu .navigation-item:not(:last-child) {
+.navigation-menu .navigation-item:not(last-child) {
   margin-right: 46px;
 }
 
-/*==========NAV PHONE AND MAIL==========*/
+/*========== NAV PHONE AND MAIL/ SOCIAL ICONS ==========*/
 
 .header-phone-number {
+  display: flex; 
+  align-items: center; 
   font-weight: 500;
   font-size: 14px;
   line-height: 1.142;
@@ -163,6 +203,8 @@ ul {
 }
 
 .header-mail-address {
+  display: flex; 
+  align-items: center; 
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -171,10 +213,20 @@ ul {
   margin-left: auto;
   color: var(--main-color-link);
 }
-
-.header .header-phone-number {
-  margin-left: 30px;
+.envelope-icon {
+  width: 16px;
+  height: 20px; 
+  margin-right: 10px;
+  color: #757575; 
+   
 }
+.smartfon-icon {
+  width: 16px;
+  height: 20px; 
+  color: #757575;
+  margin-right: 10px; 
+}
+
 
 .header-mail-address:hover,
 .header-mail-address:focus {
@@ -188,16 +240,19 @@ ul {
   cursor: pointer;
 }
 
-/*==========END NAV PHONE AND MAIL==========*/
 
-/*==========END HEADER NAVIGATION==========*/
 
-/*==========HERO==========*/
+/*========== END NAV PHONE AND MAIL/ SOCIAL ICONS ==========*/
+
+/*========== END HEADER NAVIGATION ==========*/
+
+/*========== HERO ==========*/
 
 .hero-background {
   /*width: 1600px;
   height: 600px;*/
-  background-image: url("/images/imgstaffo.jpg");
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+  rgba(47, 48, 58, 0.4)), url("/images/imgstaffo.jpg");
   padding: 200px 0px;
   background-color: var(--hero-color-background);
 }
@@ -241,9 +296,9 @@ ul {
   color: var(--main-color);
 }
 
-/*==========COMPONENTS ----> CONTAINS ALL COMPONENTS ==========*/
+/*========== COMPONENTS ----> CONTAINS ALL COMPONENTS ==========*/
 
-/*==========FILTERS==========*/
+/*========== FILTERS ==========*/
 
 .filters {
   padding-top: 94px;
@@ -311,7 +366,7 @@ ul {
   letter-spacing: 0.03em;
 }
 
-/*==========OUR SERVICES=========*/
+/*========== OUR SERVICES =========*/
 /*
 .container .services-list {
 
@@ -353,9 +408,9 @@ ul {
   margin: 0 15px;
 }
 
-/*==========END OUR SERVICES==========*/
+/*========== END OUR SERVICES ==========*/
 
-/*==========OUR TEEM==========*/
+/*========== OUR TEEM ==========*/
 
 .our-team h2 {
   font-weight: 700;
@@ -396,13 +451,40 @@ ul {
 }
 
 .person-square {
+
   padding: 30px 0px;
-  text-align: center;
   background-color: var(--third-color);
   border: 0px;
   border-radius: 0px 0px 4px 4px;
 }
 
+.our-team-social-list {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  margin-top: 16px; 
+} 
+
+.social-icon {
+  display: flex ;
+  width: 20px;
+  height: 20px;
+  
+}
+
+.our-team-social-link {
+  display: block; 
+  width: 44px;
+  height: 44px; 
+
+}
+
+.our-team-social-link:hover,
+.our-team-social-link:focus {
+
+background-color: var(--main-color-link-hover-focus); 
+
+}  
 /*.our-team-list .our-team-item {
 
   display: flex;
@@ -410,9 +492,9 @@ ul {
   padding-bottom: 94px;
 }
 */
-/*==========END OUR TEEM==========*/
+/*========== END OUR TEEM ==========*/
 
-/**==========PORTFOLIO==========*/
+/**========== PORTFOLIO ==========*/
 .portfolio {
   padding-bottom: 94px;
 }
@@ -466,9 +548,9 @@ ul {
   color: var(--main-color-link);
 }
 
-/**==========END PORTFOLIO==========*/
+/**========== END PORTFOLIO ==========*/
 
-/**==========FOOTER==========*/
+/**========== FOOTER ==========*/
 
 .footer {
   background-color: var(--footer-background-color);
@@ -501,7 +583,7 @@ ul {
 }
 
 .logo-footer-blue {
-  font-family: "Raleway", "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.192;
@@ -511,7 +593,7 @@ ul {
 }
 
 .logo-footer-light {
-  font-family: "Raleway", "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.192;
@@ -548,4 +630,4 @@ ul {
   cursor: pointer;
 }
 
-/**==========END FOOTER==========*/
+/**========== END FOOTER ==========*/
