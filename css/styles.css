@@ -25,7 +25,7 @@ h6 {
   --main-color-link-hover-focus: #2196f3;
   --main-color-link: #757575;
   --main-color-link-tel: rgba(255, 255, 255, 0.6);
-  --main-color-button-background-active: #2196f3;
+  --main-color-button-background-active: #2196f3; /*ok*/
   --main-color-button-shadows-active: 0px 3px 1px rgba(0, 0, 0, 0.1),
     0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   --main-color-button-link-active: #ffffff;
@@ -578,6 +578,8 @@ fill: #ffffff;
 
 /**========== CLIENTS ==========*/
 
+ 
+
 .clients-logo h2 {
   text-align: center;
   padding-bottom: 50px;
@@ -595,8 +597,21 @@ fill: #ffffff;
 
 }
 
-.clients-container {
-  display: flex ;
+.clients-container-logo {
+  display: flex;
+  width: 170px;
+  height: 92px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #AFB1B8;
+  border-radius: 4px;
+  
+}
+.clients-container-logo:hover,
+.clients-container-logo:focus {
+  fill: var(--main-color-button-background-active); 
+  cursor: pointer; 
+
 }
 
 /**========== END CLIENTS ==========*/
@@ -621,7 +636,7 @@ fill: #ffffff;
   line-height: 1.714;
   letter-spacing: 0.03em;
   font-style: normal;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--logo-footer-light);
 }
 
 .footer-mail-address {
@@ -631,6 +646,7 @@ fill: #ffffff;
   text-decoration-line: underline;
   font-style: normal;
   color: var(--main-color-link-tel);
+  cursor: pointer; 
 }
 
 .logo-footer-blue {
