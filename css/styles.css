@@ -244,15 +244,17 @@ ul {
 /*========== HERO ==========*/
 
 .hero-background {
-  /*width: 1600px;
-  height: 600px;*/
+  max-width: 1600px;
+  height: 600px;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4),
   rgba(47, 48, 58, 0.4)), url("../images/imgstaffo.jpg");
   padding: 200px 0px;
   background-color: var(--hero-color-background);
+  margin-bottom: 94px;
 }
 
 .hero-background .container {
+   
   display: flex;
   flex-direction: column;
   justify-content: center;
