@@ -17,8 +17,6 @@ h6 {
   padding: 0;
 }
 :root {
-  
-  
   --main-color: #212121;
   --second-color-logo: #2196f3;
   --logo-footer-light: #ffffff;
@@ -39,9 +37,9 @@ h6 {
   --header-color: #ececec;
 
   /*change color var, from here ok */
-  --main-background-box-color: #F5F4FA;
-  --main-background-link-color: #ffffff; 
-  --client-background-color: #E5E5E5;
+  --main-background-box-color: #f5f4fa;
+  --main-background-link-color: #ffffff;
+  --client-background-color: #e5e5e5;
 }
 
 ul,
@@ -71,7 +69,6 @@ img {
   min-height: 80px;
   padding: 0 15px;
   margin: 0 auto;
-
 }
 
 .section {
@@ -91,25 +88,19 @@ ul {
 
 /*========== HEADER LOGO ==========*/
 
-.logo-nav-web { 
-   
+.logo-nav-web {
   color: var(--second-color-logo);
-  text-decoration: none; 
-    
+  text-decoration: none;
 }
 
 .navigation-logo-header {
-  font-family: "Raleway", sans-serif;  
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.192;
   color: var(--main-color);
   text-decoration: none;
   margin-right: 94px;
-  
-  
-
-
 
   /*margin-left: 215px;
   margin-top: 24px;
@@ -137,35 +128,31 @@ ul {
 
 .navigation {
   display: flex;
-  align-items: center; 
+  align-items: center;
 }
 
- 
 /*.header {
   border-bottom: 1px solid var(--header-color);
 }
 */
 .header .container {
   display: flex;
-  align-items: center; 
-
+  align-items: center;
 }
 
 .navigation-menu {
   list-style-type: none;
   display: flex;
-  
 }
 
 .contact-list-mt {
-  display: flex; 
+  display: flex;
   align-items: center;
   margin-left: auto;
- }
+}
 
 .contact-items:not(last-child) {
-  margin-right: 50px; 
-   
+  margin-right: 50px;
 }
 
 .navigation-item {
@@ -190,8 +177,8 @@ ul {
 /*========== NAV PHONE AND MAIL/ SOCIAL ICONS ==========*/
 
 .header-phone-number {
-  display: flex; 
-  align-items: center; 
+  display: flex;
+  align-items: center;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.142;
@@ -201,8 +188,8 @@ ul {
 }
 
 .header-mail-address {
-  display: flex; 
-  align-items: center; 
+  display: flex;
+  align-items: center;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -213,17 +200,14 @@ ul {
 }
 .contact-item-icons {
   width: 16px;
-  height: 20px; 
+  height: 20px;
   margin-right: 10px;
-    
-   
 }
 
 .contact-item-icons {
-  fill: #2196f3; 
-
+  fill: #2196f3;
 }
- 
+
 .header-mail-address:hover,
 .header-mail-address:focus {
   color: var(--main-color-link-hover-focus);
@@ -236,8 +220,6 @@ ul {
   cursor: pointer;
 }
 
-
-
 /*========== END NAV PHONE AND MAIL/ SOCIAL ICONS ==========*/
 
 /*========== END HEADER NAVIGATION ==========*/
@@ -247,15 +229,17 @@ ul {
 .hero-background {
   max-width: 1600px;
   height: 600px;
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4),
-  rgba(47, 48, 58, 0.4)), url("../images/imgstaffo.jpg");
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../images/imgstaffo.jpg");
   padding: 200px 0px;
   background-color: var(--hero-color-background);
   margin-bottom: 94px;
 }
 
 .hero-background .container {
-   
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -335,22 +319,19 @@ ul {
 /*==========CONTENT ==========*/
 
 .content-icon-box {
-  display: flex; 
-  align-items: center; 
-  justify-content: center; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 270px;
   height: 120px;
   margin-bottom: 30px;
   background-color: var(--main-background-box-color);
   border-radius: 4px;
-
-
 }
 
 .icon-box {
   width: 70px;
-  height: 70px; 
-
+  height: 70px;
 }
 
 .container .content-list {
@@ -440,7 +421,6 @@ ul {
 
 .our-team-item {
   margin: 50px 15px 0px;
-  
 }
 
 .our-team-person {
@@ -462,54 +442,46 @@ ul {
 }
 
 .person-square {
-
-  background-color: var(--main-background-link-color); 
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  background-color: var(--main-background-link-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-  margin-bottom: 30px
+  margin-bottom: 30px;
 }
 
 .our-team-person {
-  padding-top: 30px }
+  padding-top: 30px;
+}
 
 .our-team-social-list {
-  display: flex; 
-  justify-content: center; 
-  align-items: center; 
-  margin-top: 16px; 
-  padding-bottom: 30px; 
-  
-} 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
+  padding-bottom: 30px;
+}
 
 .social-icon {
-  
   width: 20px;
   height: 20px;
-    
 }
 
 .our-team-social-link {
-  display: flex; 
-  justify-content: space-around; 
+  display: flex;
+  justify-content: space-around;
   align-items: center;
   width: 44px;
-  height: 44px; 
+  height: 44px;
   border-radius: 50%;
-
 }
-
-
 
 .our-team-social-link:hover,
 .our-team-social-link:focus,
 .social-icon:hover,
 .social-icon:focus {
-
-background-color: var(--main-color-link-hover-focus); 
-fill: #ffffff; 
-
-}  
-
+  background-color: var(--main-color-link-hover-focus);
+  fill: #ffffff;
+}
 
 /*.our-team-list .our-team-item {
 
@@ -578,8 +550,6 @@ fill: #ffffff;
 
 /**========== CLIENTS ==========*/
 
- 
-
 .clients-logo h2 {
   text-align: center;
   padding-bottom: 50px;
@@ -587,14 +557,12 @@ fill: #ffffff;
   font-size: 36px;
   line-height: 1.166px;
   letter-spacing: 0.03em;
-   
 }
 
 .clients-list {
-  display: flex; 
+  display: flex;
   align-items: center;
-  justify-content: space-between;  
-
+  justify-content: space-between;
 }
 
 .clients-container-logo {
@@ -603,15 +571,13 @@ fill: #ffffff;
   height: 92px;
   border-style: solid;
   border-width: 1px;
-  border-color: #AFB1B8;
+  border-color: #afb1b8;
   border-radius: 4px;
-  
 }
 .clients-container-logo:hover,
 .clients-container-logo:focus {
-  fill: var(--main-color-button-background-active); 
-  cursor: pointer; 
-
+  fill: var(--main-color-button-background-active);
+  cursor: pointer;
 }
 
 /**========== END CLIENTS ==========*/
@@ -646,7 +612,7 @@ fill: #ffffff;
   text-decoration-line: underline;
   font-style: normal;
   color: var(--main-color-link-tel);
-  cursor: pointer; 
+  cursor: pointer;
 }
 
 .logo-footer-blue {
