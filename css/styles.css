@@ -37,6 +37,9 @@ h6 {
   --hero-color-background: #2f303a;
   --background-color-our-team: #f5f4fa;
   --header-color: #ececec;
+
+  /*change color var, from here ok */
+  --main-background-box-color: #F5F4FA;
 }
 
 ul,
@@ -154,21 +157,15 @@ ul {
   
 }
 
-/*
-.navigation-menu:first-child {
-  margin-right: 94px; 
-}
-*/
-
 .contact-list-mt {
   display: flex; 
-  align-items: center; 
-  margin-left: auto; 
+  align-items: center;
+  margin-left: auto;
+ }
 
-}
-
-.contact-list-mt:fist-child {
-
+.contact-items:not(last-child) {
+  margin-right: 50px; 
+   
 }
 
 .navigation-item {
@@ -214,20 +211,20 @@ ul {
   margin-left: auto;
   color: var(--main-color-link);
 }
-.envelope-icon {
+.contact-item-icons {
   width: 16px;
   height: 20px; 
   margin-right: 10px;
-  color: #757575; 
+    
    
 }
-.smartfon-icon {
-  width: 16px;
-  height: 20px; 
-  color: #757575;
-  margin-right: 10px; 
-}
+ 
+.contact-item-icons:hover,
+.contact-item-icons:focus {
+  fill: #2196f3; 
+  cursor: pointer; 
 
+}
 
 .header-mail-address:hover,
 .header-mail-address:focus {
@@ -337,25 +334,35 @@ ul {
 
 /*==========CONTENT ==========*/
 
+.content-icon-box {
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: var(--main-background-box-color);
+  border-radius: 4px;
+
+
+}
+
+.icon-box {
+  width: 70px;
+  height: 70px; 
+
+}
+
 .container .content-list {
   display: flex;
   justify-content: center;
 }
 
-/*.content-item {
-  display: flex;  
-  width: 270px;
-  margin: 0px 15px;
-}*/
-
-/*.content-list .content-item:not(last-child) {
-  margin-right: 30px;
-}*/
-
 .content h3 {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.142;
+  padding-bottom: 10px; 
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--main-color);
@@ -467,25 +474,36 @@ ul {
 } 
 
 .social-icon {
-  display: flex ;
+  
   width: 20px;
   height: 20px;
+   
   
 }
 
 .our-team-social-link {
-  display: block; 
+  display: flex; 
+  justify-content: space-around; 
+  align-items: center;
   width: 44px;
   height: 44px; 
+  border-radius: 50%;
 
 }
 
+
+
 .our-team-social-link:hover,
-.our-team-social-link:focus {
+.our-team-social-link:focus,
+.social-icon:hover,
+.social-icon:focus {
 
 background-color: var(--main-color-link-hover-focus); 
+fill: #ffffff; 
 
 }  
+
+
 /*.our-team-list .our-team-item {
 
   display: flex;
