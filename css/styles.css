@@ -41,6 +41,7 @@ h6 {
   /*change color var, from here ok */
   --main-background-box-color: #F5F4FA;
   --main-background-link-color: #ffffff; 
+  --client-background-color: #E5E5E5;
 }
 
 ul,
@@ -426,7 +427,7 @@ ul {
 .our-team h2 {
   font-weight: 700;
   font-size: 36px;
-  margin-bottom: 40px;
+  /*margin-bottom: 40px;*/
   line-height: 1.167;
   text-align: center;
   letter-spacing: 0.03em;
@@ -584,9 +585,19 @@ fill: #ffffff;
   font-size: 36px;
   line-height: 1.166px;
   letter-spacing: 0.03em;
+   
 }
 
+.clients-list {
+  display: flex; 
+  align-items: center;
+  justify-content: space-between;  
 
+}
+
+.clients-container {
+  display: flex ;
+}
 
 /**========== END CLIENTS ==========*/
 
