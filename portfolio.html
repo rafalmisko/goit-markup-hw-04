@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g==" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css"/>
     <title>Portfolio</title>
    
@@ -15,18 +16,31 @@
 <body>
     <!--HEADER NAVIGATION-->
     <header class="header">
-     <div class="container">
-        <a class="navigation-logo-header" href=index.html>Web<span class="logo-nav">Studio</span></a>
-        <nav class="navigation">
-            <ul class="navigation-menu list">
-                <li class="navigation-item"> <a href=index.html>Agencja</a></li>
-                <li class="navigation-item"> <a href=portfolio.html>Portfolio</a></li>
-                <li class="navigation-item"> <a href=#Kontakty>Kontakt</a></li>
+        <div class="container">
+            <a class="navigation-logo-header" href="index.html"><span class="logo-nav-web">Web</span><span
+                    class="logo-nav">Studio</span></a>
+            <nav class="navigation">
+                <ul class="navigation-menu list">
+                    <li class="navigation-item"> <a href=index.html>Agencja</a></li>
+                    <li class="navigation-item"> <a href=portfolio.html>Portfolio</a></li>
+                    <li class="navigation-item"> <a href=#Kontakty>Kontakt</a></li>
+                </ul>
+            </nav>
+            <ul class="contact-list-mt list">
+                <li class="contact-items">
+                    <a class="header-mail-address" href="mailto:info@devstudio.com">
+                        <svg class="contact-item-icons">
+                            <use href="./images/sprite.svg#icon-envelope"></use>
+                        </svg>info@devstudio.com</a>
+                </li>
+                <li class="contact-items">
+                    <a class="header-phone-number" href="tel:+48111111111">
+                        <svg class="contact-item-icons">
+                            <use href="./images/sprite.svg#icon-smartphone"></use>
+                        </svg>+48 111 111 111</a>
+                </li>
             </ul>
-        </nav>
-        <a class="header-mail-address" href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a class="header-phone-number" href="tel:+48111111111">+48 111 111 111</a>
-    </div>
+        </div>
     </header>
     <!--END HEADER NAVIGATION-->
     <main>
