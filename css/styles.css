@@ -567,6 +567,8 @@ ul {
 
 .clients-container-logo {
   display: flex;
+  align-items: center;
+  justify-content: center;
   width: 170px;
   height: 92px;
   border-style: solid;
@@ -574,6 +576,7 @@ ul {
   border-color: #afb1b8;
   border-radius: 4px;
 }
+
 .clients-container-logo:hover,
 .clients-container-logo:focus {
   fill: var(--main-color-button-background-active);
