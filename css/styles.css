@@ -21,7 +21,7 @@ h6 {
   
   --main-color: #212121;
   --second-color-logo: #2196f3;
-  --logo-footer-light: #cbcbce;
+  --logo-footer-light: #ffffff;
   --main-color-link-hover-focus: #2196f3;
   --main-color-link: #757575;
   --main-color-link-tel: rgba(255, 255, 255, 0.6);
@@ -40,6 +40,7 @@ h6 {
 
   /*change color var, from here ok */
   --main-background-box-color: #F5F4FA;
+  --main-background-link-color: #ffffff; 
 }
 
 ul,
@@ -416,6 +417,10 @@ ul {
 
 /*========== OUR TEEM ==========*/
 
+.our-team {
+  background-color: var(--main-background-box-color);
+}
+
 .our-team h2 {
   font-weight: 700;
   font-size: 36px;
@@ -432,8 +437,7 @@ ul {
 
 .our-team-item {
   margin: 50px 15px 0px;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
+  
 }
 
 .our-team-person {
@@ -451,30 +455,34 @@ ul {
   line-height: 1.1875;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--additional-color);
+  color: var(--portfolio-list-subtitles);
 }
 
 .person-square {
 
-  padding: 30px 0px;
-  background-color: var(--third-color);
-  border: 0px;
+  background-color: var(--main-background-link-color); 
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  margin-bottom: 30px
 }
+
+.our-team-person {
+  padding-top: 30px }
 
 .our-team-social-list {
   display: flex; 
   justify-content: center; 
   align-items: center; 
   margin-top: 16px; 
+  padding-bottom: 30px; 
+  
 } 
 
 .social-icon {
   
   width: 20px;
   height: 20px;
-   
-  
+    
 }
 
 .our-team-social-link {
