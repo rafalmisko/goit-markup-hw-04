@@ -69,7 +69,7 @@ img {
   min-height: 80px;
   padding: 0 15px;
   margin: 0 auto;
-  /* align-items: center;*/
+
 }
 
 .section {
@@ -145,10 +145,8 @@ ul {
 */
 .header .container {
   display: flex;
-  
   align-items: center; 
 
-  
 }
 
 .navigation-menu {
@@ -218,14 +216,12 @@ ul {
     
    
 }
- 
-.contact-item-icons:hover,
-.contact-item-icons:focus {
+
+.contact-item-icons {
   fill: #2196f3; 
-  cursor: pointer; 
 
 }
-
+ 
 .header-mail-address:hover,
 .header-mail-address:focus {
   color: var(--main-color-link-hover-focus);
