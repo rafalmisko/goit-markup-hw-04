@@ -208,9 +208,9 @@ ul {
   margin-right: 10px;
 }
 
-.contact-item-icons {
-  fill: #2196f3;
-}
+/*.contact-item-icons {
+  
+}*/
 
 .header-mail-address:hover,
 .header-mail-address:focus {
@@ -221,6 +221,7 @@ ul {
 
 .header-phone-number:hover,
 .header-phone-number:focus {
+  fill: var(--main-color-link-hover-focus);
   color: var(--main-color-link-hover-focus);
   cursor: pointer;
 }
