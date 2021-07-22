@@ -214,6 +214,7 @@ ul {
 
 .header-mail-address:hover,
 .header-mail-address:focus {
+  fill: var(--main-color-link-hover-focus);
   color: var(--main-color-link-hover-focus);
   cursor: pointer;
 }
@@ -586,6 +587,7 @@ ul {
 .clients-container-logo:focus {
   fill: var(--main-color-button-background-active);
   cursor: pointer;
+  border-color: #2196F3; 
 }
 
 /**========== END CLIENTS ==========*/
