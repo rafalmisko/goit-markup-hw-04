@@ -40,7 +40,9 @@ h6 {
   --main-background-box-color: #f5f4fa;
   --main-background-link-color: #ffffff;
   --client-background-color: #e5e5e5;
-  --social-icon-footer-background: rgba(255, 255, 255, 0.1)
+  --social-icon-footer-background: rgba(255, 255, 255, 0.1);
+  --social-company-icon-color: #AFB1B8;
+  --social-icon-footer-color: #ffffff;
   
 }
 
@@ -470,6 +472,8 @@ ul {
 .social-icon {
   width: 20px;
   height: 20px;
+  fill:  var(--social-company-icon-color); 
+
 }
 
 .our-team-social-link {
@@ -556,6 +560,11 @@ ul {
 /**========== END PORTFOLIO ==========*/
 
 /**========== CLIENTS ==========*/
+
+.clients-logo {
+  fill: var(--social-company-icon-color);
+
+}
 
 .clients-logo h2 {
   text-align: center;
@@ -706,6 +715,10 @@ ul {
    
 }
 
+.social-logo {
+fill: var(--social-icon-footer-color);
+
+}
  
 .footer-social-data .social-link:hover,
 .footer-social-data .social-link:focus {
