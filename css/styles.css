@@ -301,10 +301,7 @@ ul {
   width: 121px;
   height: 38px;
   margin-right: 8px;
-  padding-top: 6px;
-  padding-bottom: 6px;
-  padding-right: 22px;
-  padding-left: 22px;
+  padding: 6px 22px;    
   border-radius: 4px;
   cursor: pointer;
 }
