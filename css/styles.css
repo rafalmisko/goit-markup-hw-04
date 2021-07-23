@@ -5,7 +5,6 @@ body {
   max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
- 
 }
 
 h1,
@@ -42,9 +41,8 @@ h6 {
   --main-background-link-color: #ffffff;
   --client-background-color: #e5e5e5;
   --social-icon-footer-background: rgba(255, 255, 255, 0.1);
-  --social-company-icon-color: #AFB1B8;
+  --social-company-icon-color: #afb1b8;
   --social-icon-footer-color: #ffffff;
-  
 }
 
 ul,
@@ -303,10 +301,12 @@ ul {
   width: 121px;
   height: 38px;
   margin-right: 8px;
-  padding-top: 6px 22px; 
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 22px;
+  padding-left: 22px;
   border-radius: 4px;
   cursor: pointer;
-
 }
 
 .filters-nav-button:hover {
@@ -475,8 +475,7 @@ ul {
 .social-icon {
   width: 20px;
   height: 20px;
-  fill:  var(--social-company-icon-color); 
-
+  fill: var(--social-company-icon-color);
 }
 
 .our-team-social-link {
@@ -494,7 +493,7 @@ ul {
 .social-icon:focus {
   background-color: var(--main-color-link-hover-focus);
   fill: #ffffff;
-  color: #ffffff; 
+  color: #ffffff;
 }
 
 /*.our-team-list .our-team-item {
@@ -566,7 +565,6 @@ ul {
 
 .clients-logo {
   fill: var(--social-company-icon-color);
-
 }
 
 .clients-logo h2 {
@@ -600,7 +598,7 @@ ul {
 .clients-container-logo:focus {
   fill: var(--main-color-button-background-active);
   cursor: pointer;
-  border-color: #2196F3; 
+  border-color: #2196f3;
 }
 
 /**========== END CLIENTS ==========*/
@@ -608,20 +606,17 @@ ul {
 /**========== FOOTER ==========*/
 
 .footer {
-  
   background-color: var(--footer-background-color);
 }
 
 .footer-social-data {
-   
-  padding-left: 70px; 
-  margin-bottom: 20px; 
+  padding-left: 70px;
+  margin-bottom: 20px;
   padding-top: 11px;
 }
 
 .footer .container {
-  display: flex; 
-   
+  display: flex;
 }
 
 .footer .item:first-child {
@@ -629,7 +624,6 @@ ul {
 }
 
 .footer-address {
-  
   font-weight: normal;
   font-size: 14px;
   line-height: 1.714;
@@ -639,7 +633,6 @@ ul {
 }
 
 .footer-mail-address {
-  
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
@@ -650,7 +643,6 @@ ul {
 }
 
 .logo-footer-blue {
-  
   font-family: "Raleway", sans-serif;
   font-weight: bold;
   font-size: 26px;
@@ -661,7 +653,6 @@ ul {
 }
 
 .logo-footer-light {
-  
   font-family: "Raleway", sans-serif;
   font-weight: bold;
   font-size: 26px;
@@ -673,7 +664,6 @@ ul {
 }
 
 .footer-phone-number {
-  
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
@@ -707,48 +697,42 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--main-background-link-color);
-  
 }
 
-.social-media-list  {
+.social-media-list {
   display: flex;
   justify-content: space-around;
-  align-items: center; 
-  padding-top: 20px
-   
+  align-items: center;
+  padding-top: 20px;
 }
 
 .social-logo {
-fill: var(--social-icon-footer-color);
-
+  fill: var(--social-icon-footer-color);
 }
- 
+
 .footer-social-data .social-link:hover,
 .footer-social-data .social-link:focus {
-
   /*fill: var(--main-color-link-hover-focus); 
   color: var(--main-color-link-hover-focus); */
   fill: #2196f3;
-  color: #2196f3; 
-  background-color: #2196F3; 
+  color: #2196f3;
+  background-color: #2196f3;
+}
 
- }
-
- /*.social-media-items:not(last-child){
+/*.social-media-items:not(last-child){
 
   padding-right: 10px;    
  } */
 
- .social-link {
-   display: flex; 
+.social-link {
+  display: flex;
   justify-content: center;
   align-items: center;
   width: 44px;
   height: 44px;
   border-radius: 50%;
   background-color: var(--social-icon-footer-background);
-  margin-right: 10px; 
-  }
- 
+  margin-right: 10px;
+}
 
 /**========== END FOOTER ==========*/
