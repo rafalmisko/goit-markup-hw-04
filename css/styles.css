@@ -89,6 +89,8 @@ ul {
   list-style-type: none;
 }
 
+ 
+
 /*========== HEADER LOGO ==========*/
 
 .logo-nav-web {
@@ -304,13 +306,14 @@ ul {
   padding: 6px 22px;    
   border-radius: 4px;
   cursor: pointer;
+  border-style: none; 
 }
 
 .filters-nav-button:hover {
   background-color: var(--main-color-button-background-active);
   box-shadow: var(--main-color-button-shadows-active);
-  color: var(--main-color-button-link);
-  cursor: pointer;
+  color: var(--main-color-button-link-active);
+  cursor: pointer; 
 }
 
 .container .filters-list {
@@ -552,8 +555,6 @@ ul {
 
 .portfolio-list .portfolio-item {
   padding: 10px;
-  
-
 }
 
 
