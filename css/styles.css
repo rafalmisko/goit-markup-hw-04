@@ -483,6 +483,18 @@ ul {
   height: 44px;
   border-radius: 50%;
 }
+/* 
+.our-team-social-link:hover > .social-icon,
+.our-team-social-link:focus > .social-icon 
+ {
+  background-color: var(--main-color-link-hover-focus);
+  fill: #ffffff;
+  color: #ffffff;
+
+
+}
+*/ 
+
 
 .person-square .our-team-social-link:hover,
 .person-square .our-team-social-link:focus,
@@ -492,14 +504,7 @@ ul {
   fill: #ffffff;
   color: #ffffff;
 }
-
-/*.our-team-list .our-team-item {
-
-  display: flex;
-  text-align: center;
-  padding-bottom: 94px;
-}
-*/
+ 
 
 /*========== END OUR TEEM ==========*/
 
@@ -599,20 +604,20 @@ ul {
   cursor: pointer; 
 }
 
-/* .clients-container-logo:hover > .clients-logo,
+.clients-container-logo:hover > .clients-logo,
 .clients-container-logo:focus > .clients-logo {
   fill: var(--main-color-button-background-active);
   cursor: pointer;
    
-} */
-
+}
+/* 
 .clients-container-logo .clients-logo:hover,
 .clients-container-logo .clients-logo:focus {
   fill: var(--main-color-button-background-active);
   cursor: pointer;
    
 }  
-
+ */
 /*========== END CLIENTS ==========*/
 
 /*========== FOOTER ==========*/
