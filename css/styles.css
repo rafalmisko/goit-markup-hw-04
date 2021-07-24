@@ -84,6 +84,7 @@ a {
   cursor: pointer;
   color: inherit;
 }
+a:active { --main-color-link-hover-focus; }
 
 ul {
   list-style-type: none;
