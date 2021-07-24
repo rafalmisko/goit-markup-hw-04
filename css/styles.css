@@ -500,9 +500,10 @@ ul {
   padding-bottom: 94px;
 }
 */
+
 /*========== END OUR TEEM ==========*/
 
-/**========== PORTFOLIO ==========*/
+/*========== PORTFOLIO ==========*/
 .portfolio {
   padding-bottom: 94px;
 }
@@ -556,9 +557,9 @@ ul {
   color: var(--main-color-link);
 }
 
-/**========== END PORTFOLIO ==========*/
+/*========== END PORTFOLIO ==========*/
 
-/**========== CLIENTS ==========*/
+/*========== CLIENTS ==========*/
 
 .clients-logo {
   fill: var(--social-company-icon-color);
@@ -592,15 +593,29 @@ ul {
 }
 
 .clients-container-logo:hover,
-.clients-container-logo:focus {
-  fill: var(--main-color-button-background-active);
-  cursor: pointer;
+.clients-container-logo:focus
+ { 
   border-color: #2196f3;
+  cursor: pointer; 
 }
 
-/**========== END CLIENTS ==========*/
+/* .clients-container-logo:hover > .clients-logo,
+.clients-container-logo:focus > .clients-logo {
+  fill: var(--main-color-button-background-active);
+  cursor: pointer;
+   
+} */
 
-/**========== FOOTER ==========*/
+.clients-container-logo .clients-logo:hover,
+.clients-container-logo .clients-logo:focus {
+  fill: var(--main-color-button-background-active);
+  cursor: pointer;
+   
+}  
+
+/*========== END CLIENTS ==========*/
+
+/*========== FOOTER ==========*/
 
 .footer {
   background-color: var(--footer-background-color);
@@ -732,4 +747,4 @@ ul {
   margin-right: 10px;
 }
 
-/**========== END FOOTER ==========*/
+/*========== END FOOTER ==========*/
