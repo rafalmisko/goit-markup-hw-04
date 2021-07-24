@@ -2,9 +2,9 @@ body {
   font-family: "Roboto", "Open Sans", sans-serif;
   color: #212121;
   text-decoration: none;
-  max-width: 1600px;
+  /*max-width: 1600px;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto;*/
 }
 
 h1,
@@ -236,14 +236,16 @@ ul {
 /*========== HERO ==========*/
 
 .hero-background {
-  max-width: 1600px;
+  /*max-width: 1600px;*/
   height: 600px;
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
     url("../images/imgstaffo.jpg");
+  background-repeat: no-repeat; 
   padding: 200px 0px;
+  background-position: center; 
   background-color: var(--hero-color-background);
   margin-bottom: 94px;
 }
