@@ -437,6 +437,7 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
   font-weight: 500;
+  padding-top: 30px;
   margin-bottom: 10px;
   color: var(--main-color);
 }
@@ -457,10 +458,7 @@ ul {
   margin-bottom: 30px;
 }
 
-.our-team-person {
-  padding-top: 30px;
-}
-
+ 
 .our-team-social-list {
   display: flex;
   justify-content: center;
@@ -472,8 +470,13 @@ ul {
 .social-icon {
   width: 20px;
   height: 20px;
-  fill: var(--social-company-icon-color);
 }
+
+.our-team-social-items {
+  fill: var(--social-company-icon-color); 
+
+}
+
 
 .our-team-social-link {
   display: flex;
@@ -495,8 +498,18 @@ ul {
 }
 */ 
 
+.our-team-social-items:hover .our-team-social-link,
+.our-team-social-items:focus .our-team-social-link
+{
+  background-color: var(--main-color-link-hover-focus);
+  fill: #ffffff;
+  color: #ffffff;
+   
+  
 
-.person-square .our-team-social-link:hover,
+}
+ 
+/* .person-square .our-team-social-link:hover,
 .person-square .our-team-social-link:focus,
 .social-icon:hover,
 .social-icon:focus {
@@ -504,7 +517,8 @@ ul {
   fill: #ffffff;
   color: #ffffff;
 }
- 
+  */
+
 
 /*========== END OUR TEEM ==========*/
 
