@@ -2,10 +2,7 @@ body {
   font-family: "Roboto", "Open Sans", sans-serif;
   color: #212121;
   text-decoration: none;
-  /*max-width: 1600px;
-  margin-left: auto;
-  margin-right: auto;*/
-}
+  }
 
 h1,
 h2,
@@ -109,12 +106,7 @@ ul {
   line-height: 1.192;
   color: var(--main-color);
   text-decoration: none;
-  margin-right: 94px;
-
-  /*margin-left: 215px;
-  margin-top: 24px;
-  margin-bottom: 25px;
-  margin-right: 93px;*/
+  margin-right: 94px; 
 }
 
 .navigation-logo-header:hover,
@@ -140,10 +132,6 @@ ul {
   align-items: center;
 }
 
-/*.header {
-  border-bottom: 1px solid var(--header-color);
-}
-*/
 .header .container {
   display: flex;
   align-items: center;
@@ -392,18 +380,7 @@ ul {
   color: var(--main-color);
 }
 
-/*
-.services-list h2 {
 
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.167;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--main-color);
-  margin-bottom: 40px;
-}
-*/
 
 .container .services-list {
   display: flex;
@@ -495,17 +472,7 @@ ul {
   height: 44px;
   border-radius: 50%;
 }
-/* 
-.our-team-social-link:hover > .social-icon,
-.our-team-social-link:focus > .social-icon 
- {
-  background-color: var(--main-color-link-hover-focus);
-  fill: #ffffff;
-  color: #ffffff;
 
-
-}
-*/ 
 
 .our-team-social-items:hover .our-team-social-link,
 .our-team-social-items:focus .our-team-social-link
@@ -518,16 +485,6 @@ ul {
 
 }
  
-/* .person-square .our-team-social-link:hover,
-.person-square .our-team-social-link:focus,
-.social-icon:hover,
-.social-icon:focus {
-  background-color: var(--main-color-link-hover-focus);
-  fill: #ffffff;
-  color: #ffffff;
-}
-  */
-
 
 /*========== END OUR TEEM ==========*/
 
@@ -642,14 +599,7 @@ ul {
   cursor: pointer;
    
 }
-/* 
-.clients-container-logo .clients-logo:hover,
-.clients-container-logo .clients-logo:focus {
-  fill: var(--main-color-button-background-active);
-  cursor: pointer;
-   
-}  
- */
+
 /*========== END CLIENTS ==========*/
 
 /*========== FOOTER ==========*/
@@ -768,10 +718,6 @@ ul {
   background-color: #2196f3;
 }
 
-/*.social-media-items:not(last-child){
-
-  padding-right: 10px;    
- } */
 
 .social-link {
   display: flex;
